@@ -1,0 +1,75 @@
+table {
+  border: solid 1px;
+  border-spacing: 4px;
+  font-family: 'Times New Roman', Times, serif
+}
+  
+td {
+  background-color: paleturquoise;
+  border: solid 1px;
+  padding: 3px;
+}
+  
+.kolom1 {
+  padding-right: 140px;
+  padding-left: 11px;
+}
+  
+.kolom2 {
+  padding-left: 11px;
+}
+  
+.tablehead {
+  background-color: plum;
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  border: solid 1px black;
+}
+
+select {
+  background-color: white;
+  width: 500px;
+}
+  
+input[type="file"] {
+  background-color: white;
+}
+  
+input[type="text"] {
+  background-color: white;
+  width: 500px;
+}
+  
+.file {
+  text-align: center;
+}
+  
+input[type="radio"] {
+  background-color: white;
+}
+  
+textarea {
+  background-color: white;
+  text-align: left;
+  width: 500px;
+  font-family: 'Times New Roman', Times, serif
+}
+  
+button {
+  background-color: peachpuff;
+  padding: 10px 20px;
+  border: none;
+  width: 250px;
+}
+  
+.buttons {
+  text-align: center;
+  padding-right: 13px;
+  padding-left: 13px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

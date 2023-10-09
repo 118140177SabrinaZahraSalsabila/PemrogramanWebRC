@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Formulir Pendaftaran</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="index.css">
+</head>
+
+<body>
+    <form method="GET" action="118140177_hasilrespon.php">
+        <table>
+            <thead>
+                <tr>
+                    <th class="tablehead" colspan="2">Formulir Pendaftaran</th>
+                </tr>
+            </thead>
+            <tbody class="tablebody">
+                <tr>
+                    <td class="kolom1">Nama</td>
+                    <td class="kolom2"><input type="text" name="nama" placeholder="Masukkan nama anda.." required></td>
+                </tr>
+                <tr>
+                    <td class="kolom1">NIM</td>
+                    <td class="kolom2"><input type="text" name="nim" placeholder="Masukkan NIM anda.." required></td>
+                </tr>
+                <tr>
+                    <td class="kolom1">Jenis Kelamin</td>
+                    <td class="kolom2">
+                        <div>
+                            <input type="radio" name="jeniskelamin" value="Laki-laki">Laki-laki
+                            <input type="radio" name="jeniskelamin" value="Perempuan">Perempuan
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="kolom1">Bidang Keahlian</td>
+                    <td class="kolom2"><input type="text" name="keahlian" placeholder="Masukkan keahlian anda.." required></td>
+                </tr>
+                <tr>
+                    <td class="kolom1">Program Studi</td>
+                    <td class="kolom2"><input type="text" name="prodi" placeholder="Masukkan program studi anda.." required></td>
+                </tr>
+                <tr>
+                    <td class="kolom1">Biografi Singkat</td>
+                    <td class="kolom2"><textarea name="bio" cols="40" rows="3"></textarea></td>
+                </tr>
+                <tr>
+                    <td class="file" colspan="2"><input type="file" name="files"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <div class="buttons">
+                            <button type="reset">Reset</button>
+                            <button type="submit" value="simpan">Simpan</button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
